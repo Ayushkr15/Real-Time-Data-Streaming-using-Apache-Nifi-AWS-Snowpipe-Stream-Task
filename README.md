@@ -7,7 +7,7 @@
 This project demonstrates a real-time data streaming pipeline using **Apache NiFi**, **AWS S3**, and **Snowflake** (with Snowpipe, Streams, and Tasks). It implements **Type 1 (SCD 1)** and **Type 2 (SCD 2)** Slowly Changing Dimensions to manage historical and current customer data efficiently. The workflow includes automated data ingestion, transformation, and loading into Snowflake with near-real-time updates.
 
 ## 🔧 Technologies Used
-- **Cloud Services**: AWS S3 (Data Storage)
+- **Cloud Services**: AWS S3 (Data Storage) , EC2
 - **Data Pipeline**: Apache NiFi (Data Ingestion & Orchestration)
 - **Data Warehouse**: Snowflake (Snowpipe, Streams, Tasks, Merge Operations)
 - **Data Generation**: Python, Faker Library
